@@ -47,7 +47,7 @@ const CTA = () => {
             rel="noopener noreferrer"
             className="block text-center hover:scale-105 transition-transform duration-200"
           >
-            <h2 className="text-3xl lg:text-4xl xl:text-5xl font-anton mb-6 leading-tight hover:text-white/90 transition-colors duration-200">
+            <h2 className="text-3xl lg:text-4xl xl:text-5xl font-anton mb-6 leading-tight text-white hover:text-white/90 transition-colors duration-200">
               ¿Listo para cuidar de tu mascota?
             </h2>
           </a>
@@ -101,33 +101,33 @@ const CTA = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center text-white/80 text-sm"
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center text-white text-sm"
           >
             <a
               href="https://wa.me/584128299663"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 hover:text-white transition-colors duration-200"
+              className="flex items-center space-x-2 text-white hover:text-white/80 transition-colors duration-200"
             >
               <Phone className="w-4 h-4" />
               <span>+58 412-8299663</span>
             </a>
-            <div className="hidden sm:block text-white/60">•</div>
+            <div className="hidden sm:block text-white">•</div>
             <a
               href="mailto:scapobvet@gmail.com?subject=Consulta%20Veterinaria%20CAPOVET"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 hover:text-white transition-colors duration-200"
+              className="flex items-center space-x-2 text-white hover:text-white/80 transition-colors duration-200"
             >
               <Mail className="w-4 h-4" />
               <span>scapobvet@gmail.com</span>
             </a>
-            <div className="hidden sm:block text-white/60">•</div>
+            <div className="hidden sm:block text-white">•</div>
             <a
               href="https://instagram.com/capovet_"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 hover:text-white transition-colors duration-200"
+              className="flex items-center space-x-2 text-white hover:text-white/80 transition-colors duration-200"
             >
               <Instagram className="w-4 h-4" />
               <span>@capovet_</span>
@@ -142,7 +142,7 @@ const CTA = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="mt-12 bg-white/10 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto"
           >
-            <p className="text-white/90 text-sm">
+            <p className="text-white text-sm">
               <strong>Emergencias:</strong> Para casos urgentes, contacta inmediatamente por WhatsApp.
               Estamos disponibles para atender situaciones que requieren atención veterinaria inmediata.
             </p>

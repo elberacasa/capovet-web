@@ -45,7 +45,7 @@ const Team = () => {
   ];
 
   return (
-    <section className="py-12 lg:py-16 xl:py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <section className="py-12 lg:py-16 xl:py-20 bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-16 left-12 w-20 h-20 bg-[#34497F]/6 rounded-full blur-2xl animate-float"></div>
@@ -118,10 +118,10 @@ const Team = () => {
                       viewport={{ once: true }}
                       transition={{ duration: 0.6, delay: 0.1 * index }}
                       whileHover={{ y: -5, scale: 1.02 }}
-                      className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group"
+                      className="bg-gradient-to-br from-white via-[#34497F]/3 to-[#6D97CF]/5 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-[#34497F]/20 group backdrop-blur-sm"
                     >
                       <div className="flex flex-col items-center text-center">
-                        <div className={`w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br ${value.color} rounded-xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                        <div className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-[#34497F] to-[#6D97CF] rounded-xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300">
                           <value.icon className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-white" />
                         </div>
                         <h4 className="text-sm sm:text-base lg:text-lg font-anton text-[#34497F] mb-2 group-hover:text-[#6D97CF] transition-colors duration-300">
@@ -159,7 +159,7 @@ const Team = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 * index }}
                 whileHover={{ y: -5, scale: 1.02 }}
-                className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group"
+                className="bg-gradient-to-br from-white via-[#34497F]/3 to-[#6D97CF]/5 rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-[#34497F]/20 group backdrop-blur-sm"
               >
                 <div className="text-center">
                   <motion.div

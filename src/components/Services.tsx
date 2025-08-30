@@ -71,7 +71,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="section bg-brand-light relative overflow-hidden">
+    <section id="services" className="section bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
       {/* Brand Color Accents */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-16 left-8 w-20 h-20 bg-brand-primary/8 rounded-full blur-2xl animate-float"></div>

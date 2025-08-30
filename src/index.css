@@ -105,6 +105,19 @@
     @apply hover:shadow-2xl hover:-translate-y-1 transition-all duration-500;
   }
 
+  /* New Enhanced Card Variants */
+  .card-elevated {
+    @apply bg-white rounded-2xl shadow-xl hover:shadow-3xl transition-all duration-500 border border-gray-100 overflow-hidden hover:-translate-y-2;
+  }
+
+  .card-interactive {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden hover:-translate-y-1 active:translate-y-0 active:scale-[0.98];
+  }
+
+  .card-brand {
+    @apply bg-gradient-to-br from-white via-[#34497F]/3 to-[#6D97CF]/5 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-[#34497F]/20 overflow-hidden hover:-translate-y-1 backdrop-blur-sm;
+  }
+
   /* Section Spacing - Mobile First */
   .section {
     @apply py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32;

@@ -3,7 +3,7 @@ import { Award, Heart, Users } from 'lucide-react';
 
 const About = () => {
   return (
-    <section id="about" className="section bg-brand-light relative overflow-hidden">
+    <section id="about" className="section bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
       {/* Brand Color Accents */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-20 right-10 w-24 h-24 bg-brand-primary/10 rounded-full blur-2xl animate-float"></div>
@@ -104,7 +104,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-lg border border-gray-100"
+                className="bg-gradient-to-br from-white via-[#34497F]/3 to-[#6D97CF]/5 rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-lg border border-[#34497F]/20 backdrop-blur-sm"
               >
                 <h4 className="text-base sm:text-lg font-anton brand-primary mb-4 text-center">Credenciales profesionales</h4>
                 <div className="grid grid-cols-3 gap-3 sm:gap-4">
@@ -132,7 +132,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.5 }}
-                className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100"
+                className="bg-gradient-to-br from-white via-[#6D97CF]/3 to-[#8BB8E8]/5 rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-[#6D97CF]/20 backdrop-blur-sm"
               >
                 <div className="flex items-start space-x-4 lg:space-x-6">
                   <div className="bg-gradient-to-br from-pink-500 to-rose-500 rounded-xl sm:rounded-2xl p-3 flex-shrink-0">

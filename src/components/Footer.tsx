@@ -70,24 +70,24 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col items-center lg:items-end gap-2">
-              {/* Veneweb Attribution */}
-              <div className="text-white/60 text-xs">
+              {/* Veneweb Attribution - Made More Prominent */}
+              <div className="text-white text-sm font-medium">
                 made with{' '}
-                <Heart className="w-3 h-3 inline text-red-400 animate-pulse" />{' '}
+                <Heart className="w-4 h-4 inline text-red-400 animate-pulse" />{' '}
                 by{' '}
                 <a
                   href="https://veneweb.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-white/90 transition-colors duration-300 group"
+                  className="hover:text-cyan-300 transition-colors duration-300 group"
                 >
-                  <span className="font-medium group-hover:text-cyan-300 transition-colors">
+                  <span className="font-bold text-lg group-hover:text-cyan-300 transition-colors bg-white/10 px-2 py-1 rounded-lg">
                     veneweb
                   </span>
                 </a>
               </div>
 
-              <div className="flex items-center space-x-2 text-white/50 text-xs">
+              <div className="flex items-center space-x-2 text-white text-sm">
                 <span>🐾 Caracas</span>
                 <span>•</span>
                 <span>🏥 Veterinaria</span>

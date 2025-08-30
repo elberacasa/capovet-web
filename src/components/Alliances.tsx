@@ -34,7 +34,7 @@ const Alliances = () => {
   ];
 
   return (
-    <section className="py-16 bg-brand-light relative overflow-hidden">
+    <section className="py-16 bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
       {/* Brand Color Accents */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-12 right-12 w-24 h-24 bg-brand-primary/6 rounded-full blur-3xl animate-float"></div>
@@ -83,7 +83,7 @@ const Alliances = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 * index }}
               whileHover={{ y: -8, scale: 1.02 }}
-              className={`bg-gradient-to-br ${alliance.bgColor} rounded-3xl p-6 text-center shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 group overflow-hidden relative`}
+              className={`bg-gradient-to-br from-white via-[#34497F]/5 to-[#6D97CF]/8 rounded-3xl p-6 text-center shadow-lg hover:shadow-2xl transition-all duration-500 border border-[#34497F]/20 group overflow-hidden relative backdrop-blur-sm`}
             >
               {/* Animated background overlay */}
               <div className={`absolute inset-0 bg-gradient-to-br ${alliance.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500 rounded-3xl`}></div>
@@ -105,7 +105,7 @@ const Alliances = () => {
               </p>
 
               {/* Decorative corner accent */}
-              <div className="absolute top-4 right-4 w-8 h-8 bg-gray-200/50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute top-4 right-4 w-8 h-8 bg-[#34497F]/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </motion.div>
           ))}
         </motion.div>

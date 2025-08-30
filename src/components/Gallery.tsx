@@ -23,7 +23,7 @@ const Gallery = () => {
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6);
 
   return (
-    <section id="gallery" className="section bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <section id="gallery" className="section bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
       {/* Brand Color Accents */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-16 right-16 w-20 h-20 bg-[#34497F]/5 rounded-full blur-2xl animate-float"></div>
@@ -79,7 +79,7 @@ const Gallery = () => {
                 stiffness: 100
               }}
               whileHover={{ scale: 1.05 }}
-              className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 bg-white border border-gray-100"
+              className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-white via-[#34497F]/3 to-[#6D97CF]/5 border border-[#34497F]/20 backdrop-blur-sm"
             >
               <div className="aspect-square overflow-hidden">
                 <img
