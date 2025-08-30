@@ -84,13 +84,8 @@ const ModernHero = () => {
                 {/* Trust Indicators */}
                 <AnimatedElement delay={300}>
                   <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
-                    <div className="flex items-center justify-center mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full flex items-center justify-center">
-                        <Award className="w-6 h-6 text-white" />
-                      </div>
-                    </div>
-                    <h3 className="text-lg font-bold text-white text-center mb-2">Servicio de Emergencia 24/7</h3>
-                    <p className="text-blue-200 text-sm text-center leading-relaxed">Atención veterinaria de urgencias disponible las 24 horas del día, todos los días del año</p>
+                    <h3 className="text-[17px] sm:text-lg font-bold text-center mb-2 bg-gradient-to-r from-blue-400 via-cyan-300 to-teal-400 bg-clip-text text-transparent">Atención veterinaria integral para tu mascota bajo previa cita</h3>
+                    <p className="text-blue-200 text-sm text-center leading-relaxed">Consulta la disponibilidad en tu zona y horarios por WhatsApp</p>
                   </div>
                 </AnimatedElement>
 
@@ -102,7 +97,7 @@ const ModernHero = () => {
                       <div className="text-xs text-blue-200">Mascotas Atendidas</div>
                     </div>
                     <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 border border-white/20 text-center">
-                      <div className="text-2xl font-bold text-cyan-300 mb-1">10+</div>
+                      <div className="text-2xl font-bold text-cyan-300 mb-1">3+</div>
                       <div className="text-xs text-blue-200">Años de Experiencia</div>
                     </div>
                     <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 border border-white/20 text-center">
@@ -126,6 +121,7 @@ const ModernHero = () => {
                         <div className="bg-blue-500/20 text-blue-200 px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap">Cirugía Menor</div>
                         <div className="bg-teal-500/20 text-teal-200 px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap">Terapia Neural</div>
                         <div className="bg-indigo-500/20 text-indigo-200 px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap">Medicina Preventiva</div>
+                        <div className="bg-purple-500/20 text-purple-200 px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap">Hematología Veterinaria</div>
                       </div>
                     </div>
                   </div>

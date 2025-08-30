@@ -67,7 +67,7 @@ const About = () => {
                       Dr. Santiago Capobianco
                     </h3>
                     <p className="text-sm sm:text-base text-gray-600 font-medium">
-                      Médico Veterinario Especialista
+                      Médico Veterinario
                     </p>
                   </div>
                 </div>
@@ -94,6 +94,9 @@ const About = () => {
                   Médico veterinario con interés en <strong className="brand-primary">medicina preventiva</strong>,
                   <strong className="brand-primary"> medicina felina</strong> y
                   <strong className="brand-primary"> terapia neural</strong> aplicada en pequeños animales.
+                </p>
+                <p className="text-base lg:text-lg text-gray-700 font-dm-sans leading-relaxed mt-3">
+                  Actualmente <strong className="brand-primary">cursando postgrado en medicina felina</strong> para brindar atención especializada de la más alta calidad.
                 </p>
               </div>
 

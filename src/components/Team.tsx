@@ -6,6 +6,7 @@ const Team = () => {
     {
       name: "Dr. Santiago Capobianco",
       role: "Médico Veterinario",
+      description: "Médico veterinario con interés en medicina preventiva, medicina felina y terapia neural aplicada en pequeños animales. Actualmente cursando postgrado en medicina felina.",
       specialties: ["🐱 Medicina Felina", "🛡️ Preventiva", "🧠 Neural"],
       quote: "Prevenir es cuidar",
       image: "/brand/santiago.jpg",
@@ -188,7 +189,13 @@ const Team = () => {
                   </motion.div>
 
                   <h4 className="text-lg sm:text-xl lg:text-2xl font-anton text-[#34497F] mb-2">{member.name}</h4>
-                  <p className="text-gray-600 font-semibold mb-4 text-sm sm:text-base">{member.role}</p>
+                  <p className="text-gray-600 font-semibold mb-2 text-sm sm:text-base">{member.role}</p>
+                  
+                  {member.description && (
+                    <p className="text-gray-600 text-sm mb-4 leading-relaxed max-w-sm mx-auto">
+                      {member.description}
+                    </p>
+                  )}
 
                   <div className="flex flex-wrap justify-center gap-2 mb-4">
                     {member.specialties.map((specialty, i) => (

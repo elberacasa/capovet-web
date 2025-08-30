@@ -67,6 +67,13 @@ const Services = () => {
       description: "Apoyo en manejo del dolor, trastornos crónicos y recuperación funcional",
       color: "from-indigo-500 to-purple-600",
       bgColor: "from-[#8BB8E8]/8 to-[#A8D8F0]/12"
+    },
+    {
+      icon: Hospital,
+      title: "Servicio de traslado y acompañamiento en clínica veterinaria",
+      description: "Traslado y acompañamiento para estudios complementarios en clínicas especializadas",
+      color: "from-amber-500 to-orange-500",
+      bgColor: "from-[#FFD700]/10 to-[#FFA500]/15"
     }
   ];
 
