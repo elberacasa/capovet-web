@@ -82,30 +82,22 @@ const Alliances = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 * index }}
-              whileHover={{ y: -8, scale: 1.02 }}
-              className={`bg-gradient-to-br from-white via-[#34497F]/5 to-[#6D97CF]/8 rounded-3xl p-6 text-center shadow-lg hover:shadow-2xl transition-all duration-500 border border-[#34497F]/20 group overflow-hidden relative backdrop-blur-sm`}
+              className={`bg-gradient-to-br from-white via-[#34497F]/5 to-[#6D97CF]/8 rounded-3xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 border border-[#34497F]/20 group overflow-hidden relative`}
             >
-              {/* Animated background overlay */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${alliance.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500 rounded-3xl`}></div>
-
-              {/* Icon with animated background */}
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                className={`relative z-10 w-14 h-14 bg-gradient-to-br ${alliance.color} rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl transition-all duration-300`}
+              {/* Icon with background */}
+              <div
+                className={`relative z-10 w-14 h-14 bg-gradient-to-br ${alliance.color} rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg transition-all duration-300`}
               >
                 <alliance.icon className="w-7 h-7 text-white" />
-              </motion.div>
+              </div>
 
-              <h3 className="text-lg lg:text-xl font-anton text-[#34497F] mb-3 group-hover:text-[#6D97CF] transition-colors duration-300 relative z-10">
+              <h3 className="text-lg lg:text-xl font-anton text-[#34497F] mb-3 transition-colors duration-300 relative z-10">
                 {alliance.title}
               </h3>
 
               <p className="text-gray-600 text-sm font-dm-sans leading-relaxed relative z-10">
                 {alliance.description}
               </p>
-
-              {/* Decorative corner accent */}
-              <div className="absolute top-4 right-4 w-8 h-8 bg-[#34497F]/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </motion.div>
           ))}
         </motion.div>
