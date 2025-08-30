@@ -106,14 +106,14 @@ const Gallery = () => {
           ))}
         </motion.div>
 
-        {/* View More Button - Mobile Only */}
+        {/* View More Button - All Screen Sizes */}
         {!showAllImages && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-center mt-8 lg:hidden"
+            className="text-center mt-8"
           >
             <motion.button
               whileHover={{ scale: 1.05 }}
@@ -127,13 +127,13 @@ const Gallery = () => {
           </motion.div>
         )}
 
-        {/* View Less Button - Mobile Only */}
+        {/* View Less Button - All Screen Sizes */}
         {showAllImages && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="text-center mt-8 lg:hidden"
+            className="text-center mt-8"
           >
             <motion.button
               whileHover={{ scale: 1.05 }}
