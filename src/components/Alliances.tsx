@@ -68,20 +68,10 @@ const Alliances = () => {
           <div className="w-24 h-1 bg-brand-gradient mx-auto mt-6 rounded-full"></div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="grid-cols-responsive grid-responsive"
-        >
+        <div className="grid-cols-responsive grid-responsive">
           {alliances.map((alliance, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 * index }}
               className={`bg-gradient-to-br from-white via-[#34497F]/5 to-[#6D97CF]/8 rounded-3xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 border border-[#34497F]/20 group overflow-hidden relative`}
             >
               {/* Icon with background */}
@@ -98,9 +88,9 @@ const Alliances = () => {
               <p className="text-gray-600 text-sm font-dm-sans leading-relaxed relative z-10">
                 {alliance.description}
               </p>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
