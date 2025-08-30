@@ -18,7 +18,7 @@ const Gallery = () => {
     exists: true // Will be set to false by error handler for missing images
   }));
 
-  // Show first 6 images on mobile, all available images on desktop or when expanded
+  // Show first 6 images on all screen sizes, or all when expanded
   // Missing images are automatically hidden, so only existing images are shown
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6);
 
@@ -97,8 +97,6 @@ const Gallery = () => {
                   }}
                 />
               </div>
-
-
 
               {/* Subtle border animation */}
               <div className="absolute inset-0 border-2 border-transparent group-hover:border-[#6D97CF]/30 rounded-xl sm:rounded-2xl transition-colors duration-300"></div>
