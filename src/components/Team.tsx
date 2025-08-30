@@ -16,6 +16,7 @@ const Team = () => {
     {
       name: "Vanessa Mendez",
       role: "Auxiliar Veterinaria (ATV)",
+      description: "Manejo cat friendly.",
       specialties: ["💝 Cuidado Especializado", "📚 Estudiante MV"],
       quote: "Cada mascota merece atención especial",
       image: "/brand/vanessa.jpg",
