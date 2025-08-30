@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Award, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const ModernHero = () => {
   const [isVisible, setIsVisible] = useState(false);
