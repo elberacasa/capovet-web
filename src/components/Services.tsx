@@ -74,8 +74,8 @@ const Services = () => {
     <section id="services" className="section bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
       {/* Brand Color Accents */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-16 left-8 w-20 h-20 bg-brand-primary/8 rounded-full blur-2xl animate-float"></div>
-        <div className="absolute bottom-16 right-8 w-24 h-24 bg-brand-secondary/6 rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-16 left-8 w-20 h-20 bg-gradient-to-br from-[#34497F]/8 to-[#4F9CF9]/12 rounded-full blur-2xl"></div>
+        <div className="absolute bottom-16 right-8 w-24 h-24 bg-gradient-to-br from-[#6D97CF]/6 to-[#8BB8E8]/10 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container-custom relative z-10">

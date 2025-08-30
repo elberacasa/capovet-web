@@ -26,9 +26,8 @@ const Gallery = () => {
     <section id="gallery" className="section bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
       {/* Brand Color Accents */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-16 right-16 w-20 h-20 bg-[#34497F]/5 rounded-full blur-2xl animate-float"></div>
-        <div className="absolute bottom-16 left-16 w-28 h-28 bg-[#6D97CF]/4 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-pink-500/6 rounded-full blur-xl animate-float" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute top-16 right-16 w-20 h-20 bg-[#34497F]/5 rounded-full blur-2xl"></div>
+        <div className="absolute bottom-16 left-16 w-28 h-28 bg-[#6D97CF]/4 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container-custom relative z-10">

@@ -77,45 +77,45 @@
 
   /* Enhanced Button System */
   .btn-primary {
-    @apply bg-gradient-to-r from-[#34497F] to-[#4F7BB8] text-white px-6 py-3 rounded-2xl font-semibold hover:from-[#4F7BB8] hover:to-[#6D97CF] transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-[1.02] active:scale-[0.98];
+    @apply bg-gradient-to-r from-[#34497F] to-[#4F7BB8] text-white px-6 py-3 rounded-2xl font-semibold hover:from-[#4F7BB8] hover:to-[#6D97CF] transition-all duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#34497F]/20;
   }
 
   .btn-secondary {
-    @apply bg-white text-[#34497F] border-2 border-[#34497F] px-6 py-3 rounded-2xl font-semibold hover:bg-[#34497F] hover:text-white transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-[1.02] active:scale-[0.98];
+    @apply bg-white text-[#34497F] border-2 border-[#34497F] px-6 py-3 rounded-2xl font-semibold hover:bg-[#34497F] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#34497F]/20;
   }
 
   .btn-whatsapp {
-    @apply bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-[1.02] active:scale-[0.98] border-2 border-green-400/30;
+    @apply bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-green-400/30 focus:outline-none focus:ring-4 focus:ring-green-500/20;
   }
 
   .btn-email {
-    @apply bg-white text-[#34497F] border-2 border-[#34497F]/20 px-6 py-3 rounded-2xl font-semibold hover:bg-[#34497F] hover:text-white transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-[1.02] active:scale-[0.98];
+    @apply bg-white text-[#34497F] border-2 border-[#34497F]/20 px-6 py-3 rounded-2xl font-semibold hover:bg-[#34497F] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-[#34497F]/20;
   }
 
   .btn-instagram {
-    @apply bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500 hover:from-purple-600 hover:via-pink-600 hover:to-rose-600 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-[1.02] active:scale-[0.98] border-2 border-purple-400/30;
+    @apply bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500 hover:from-purple-600 hover:via-pink-600 hover:to-rose-600 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-purple-400/30 focus:outline-none focus:ring-4 focus:ring-purple-500/20;
   }
 
   /* Enhanced Card System */
   .card {
-    @apply bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 overflow-hidden;
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden;
   }
 
   .card-hover {
-    @apply hover:shadow-2xl hover:-translate-y-1 transition-all duration-500;
+    @apply hover:shadow-xl transition-all duration-300;
   }
 
   /* New Enhanced Card Variants */
   .card-elevated {
-    @apply bg-white rounded-2xl shadow-xl hover:shadow-3xl transition-all duration-500 border border-gray-100 overflow-hidden hover:-translate-y-2;
+    @apply bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden;
   }
 
   .card-interactive {
-    @apply bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden hover:-translate-y-1 active:translate-y-0 active:scale-[0.98];
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden;
   }
 
   .card-brand {
-    @apply bg-gradient-to-br from-white via-[#34497F]/3 to-[#6D97CF]/5 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-[#34497F]/20 overflow-hidden hover:-translate-y-1 backdrop-blur-sm;
+    @apply bg-gradient-to-br from-white via-[#34497F]/3 to-[#6D97CF]/5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#34497F]/20 overflow-hidden;
   }
 
   /* Section Spacing - Mobile First */

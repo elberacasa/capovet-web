@@ -4,11 +4,10 @@ import { Award, Heart, Users } from 'lucide-react';
 const About = () => {
   return (
     <section id="about" className="section bg-gradient-to-br from-[#34497F]/20 via-[#6D97CF]/25 to-[#8BB8E8]/20 relative overflow-hidden">
-      {/* Brand Color Accents */}
+      {/* Enhanced Brand Color Accents */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 right-10 w-24 h-24 bg-brand-primary/10 rounded-full blur-2xl animate-float"></div>
-        <div className="absolute bottom-20 left-10 w-32 h-32 bg-brand-secondary/8 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute top-1/2 left-1/3 w-16 h-16 bg-brand-accent/12 rounded-full blur-xl animate-float" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute top-20 right-10 w-32 h-32 bg-gradient-to-br from-[#34497F]/15 to-[#6D97CF]/20 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute bottom-20 left-10 w-40 h-40 bg-gradient-to-br from-[#6D97CF]/12 to-[#8BB8E8]/18 rounded-full blur-3xl"></div>
       </div>
       <div className="container-custom">
         <motion.div
